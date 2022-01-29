@@ -1,10 +1,11 @@
 # cmake_clang_mydemo
-cmake_clang_demo
+
 
 ### 环境
 * Windows10
 * 安装`MinGW`,配置系统环境变量，当前版本：`gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)`
 * 安装`CMake`,配置系统环境变量，当前版本：`cmake version 3.22.2`
+* 工程名称：`CMakeClangDemo`
 
 ### 创建文件夹build
 ```
@@ -55,5 +56,5 @@ PS C:\Users\Administrator\Desktop\clangTest\clangDemo\build> mingw32-make
 ```
 cd ../bin
 
-
+./CMakeClangDemo.exe
 ```
