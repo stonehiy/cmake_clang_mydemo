@@ -1,7 +1,7 @@
 # https://www.cnblogs.com/jingsupo/p/12194150.html
 
 cmake_minimum_required(VERSION 3.0.0)
-project(myClang VERSION 0.1.0)
+project(CMakeClangDemo VERSION 0.1.0)
 
 message("Project Name: " ${PROJECT_NAME})
 
