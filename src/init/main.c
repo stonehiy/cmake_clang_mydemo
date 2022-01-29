@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../include/test.h"
+#include "../include/struct.h"
 
 void testArr()
 {
@@ -39,6 +40,17 @@ void testPoint()
     free(intPP);
 }
 
+void testStruct()
+{
+    struct Student stu;
+    stu.age = 1;
+    stu.height = 121;
+    stu.name = "LiLi";
+    stu.score = 20;
+
+    printf(" stu.name = %s", stu.name);
+}
+
 int main(int argc, char const *argv[])
 {
     /* code */
@@ -49,6 +61,7 @@ int main(int argc, char const *argv[])
     testPoint();
 
     test();
+    testStruct();
 
     return 0;
 }
