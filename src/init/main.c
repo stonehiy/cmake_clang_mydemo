@@ -43,12 +43,22 @@ void testPoint()
 void testStruct()
 {
     struct Student stu;
+    
     stu.age = 1;
     stu.height = 121;
     stu.name = "LiLi";
     stu.score = 20;
 
-    printf(" stu.name = %s", stu.name);
+    printf(" stu.name = %s \n", stu.name);
+
+    struct Student *pStu = &stu;
+    
+    int age = pStu->age;
+    printf(" pStu->age = %d \n",age);
+
+
+
+
 }
 
 int main(int argc, char const *argv[])
