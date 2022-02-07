@@ -54,7 +54,10 @@ void testStruct()
     struct Student *pStu = &stu;
     
     int age = pStu->age;
+    pStu->score = 30;
+    int score =  pStu->score;
     printf(" pStu->age = %d \n",age);
+    printf(" pStu->score = %d \n",score);
 
 
 
